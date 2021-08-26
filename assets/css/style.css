@@ -52,6 +52,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 iframe {
   border: none;
 }
@@ -825,6 +828,12 @@ li.lang-item:after {
   padding-left: 10px;
 }
 .xs-header-middle.header-v2-top .header-middle-info ul li .header-v2-social a {
+  display: inline-block;
+  font-size: 12px;
+  color: #555555;
+  padding: 0 12px 0 0;
+}
+ ul li .header-v2-social a {
   display: inline-block;
   font-size: 12px;
   color: #555555;
